@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zalhuu Fitness</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="acc1.css"> <!-- You may adjust this link as needed -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto Slab', Arial, sans-serif;
+      background-color: #C7F9CC;
+    }
+    .topnav {
+      overflow: hidden;
+      background-color: #57CC99;
+      opacity: 0.8;
+    }
+    .topnav a {
+    
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .topnav a:hover {
+      color: #206EB7;
+    }
+    .btn {
+      background-color: green;
+      color: white;
+      border-radius: 100px;
+      border: none;
+      height: 99px;
+      width: 350px;
+      font-size: 35px;
+      font-family: 'Press Start 2P', sans-serif;
+      margin-left: 1400px;
+      margin-top: 650px;
+    }
+    .niittovc {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 20px; /* Added margin for better spacing */
+    }
+    .tovc-btn, .tovchoyr-btn, .tovcgurav-btn, .tovcduruv-btn,
+    .tovctav-btn, .tovczurgaa-btn, .tovcdoloo-btn, .tovcnaim-btn,
+    .tovcyus-btn, .tovcarav-btn, .tovcarvanneg-btn {
+      background: none;
+      border: none;
+      border-radius: 100px;
+      margin-bottom: 20px; /* Added margin for better spacing */
+
+    }
+    .tovc-btn img, .tovchoyr-btn img, .tovcgurav-btn img,
+    .tovcduruv-btn img, .tovctav-btn img, .tovczurgaa-btn img,
+    .tovcdoloo-btn img, .tovcnaim-btn img, .tovcyus-btn img,
+    .tovcarav-btn img {
+      width: 270px;
+      height: 270px;
+      display: block;
+      opacity: 0.8; 
+      cursor: pointer;
+    }
+    .tovcarvanneg-btn img {
+      width: 270px;
+      height: 270px;
+      display: block;
+    }
+    .tovc-btn img:hover, .tovchoyr-btn img:hover, .tovcgurav-btn img:hover,
+    .tovcduruv-btn img:hover, .tovctav-btn img:hover, .tovczurgaa-btn img:hover,
+    .tovcdoloo-btn img:hover, .tovcnaim-btn img:hover, .tovcyus-btn img:hover,
+    .tovcarav-btn img:hover {
+      opacity: 2;
+    }
+    .container {
+      width: 270px;
+      top: 133px;
+      left: 149px;
+      display: none;
+      z-index: 999;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: #206EB7;
+    }
+    .container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: auto;
+    }
+    .closebutton {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: black;
+      font-size: 30px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="topnav">
+    <a href="#index1" style="  float: right; padding-right: 107px;">Hэвтрэх</a>
+    <a href="#index1" style="  float: right;">Мэдээлэл</a>
+    <a href="#index2" style="  float: right;">Сонголт</a>
+    <a href="#index2" style="  float: right;">Танилцуулга</a>
+    <a href="#contact" style="  float: right;">Нүүр</a>
+    <a href="#about" style="padding-left: 107px;">Бүртгэлийн хаяг</a>
+  </div>
+    
+
+  <div class="container" id="myModal">
+    <span class="closebutton" onclick="document.getElementById('myModal').style.display = 'none'">&times;</span>
+    <img id="expandedImg">
+    <div id="imgtext"></div>
+  </div>
+  <script>
+    function myFunction(img) {
+      var modal = document.getElementById('myModal');
+      var expandImg = document.getElementById("expandedImg");
+      expandImg.src = img.src;
+      modal.style.display = "block";
+    }
+  </script>
+  <div class="niittovc"> 
+    <div class="tovc-btn">
+      <img src="urgamal.png" alt="Image 1" onclick="myFunction(this);">
+    </div>
+    <div class="tovchoyr-btn">
+      <img src="galuu.png" alt="Image 2" onclick="myFunction(this);">
+    </div>
+    <div class="tovcgurav-btn">
+      <img src="melhii.png" alt="Image 3" onclick="myFunction(this);">
+    </div>
+    <div class="tovcduruv-btn">
+      <img src="dina.png" alt="Image 4" onclick="myFunction(this);">
+    </div>
+    <div class="tovctav-btn">
+      <img src="degdeehii.png" alt="Image 5" onclick="myFunction(this);">
+    </div>
+    <div class="tovczurgaa-btn">
+      <img src="nohoi.png" alt="Image 6" onclick="myFunction(this);">
+    </div>
+    <div class="tovcdoloo-btn">
+      <img src="emgen.png" alt="Image 7" onclick="myFunction(this);">
+    </div>
+    <div class="tovcnaim-btn">
+      <img src="uher.png" alt="Image 8" onclick="myFunction(this);">
+    </div>
+    <div class="tovcyus-btn">
+      <img src="hulgana.png" alt="Image 9" onclick="myFunction(this);">
+    </div>
+    <div class="tovcarav-btn">
+      <img src="tarvaga.png" alt="Image 10" onclick="myFunction(this);">
+    </div>
+    <div class="tovcarvanneg-btn">
+      <img src="asuult.png" alt="Main Image" onclick="myFunction(this);">
+    </div>
+  </div>
+  <div>
+    <a href="burtgel.html">
+      <button class="btn" onclick="location.href='#index1'">Болсон!!</button>
+    </a>
+  </div>
+
+</body>
+</html>

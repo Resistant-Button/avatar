@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   background-color: #C7F9CC;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #57CC99;
+    opacity:80%;
+  }
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    color: #206EB7;
+  }
+  .tovc-btn{
+  background: none;
+  border: none;
+  border-radius: 100px;
+  float: left;
+  width: 25%;
+  padding: 10px;
+  }
+  .tovc-btn img{
+    position: absolute;
+    left: 190px;
+    top: 140px;
+  display: block;
+  opacity: 0.8; 
+  cursor: pointer; 
+  }
+  .tovc-btn img:hover{
+    opacity: 1;
+  }
+  .tovchoyr-btn{
+  background: none;
+  border: none;
+  border-radius: 100px;
+  }
+  .tovchoyr-btn img{
+    position: absolute;
+    left: 190px;
+    top: 440px;
+  display: block;
+  }
+  .tovcgurav-btn{
+  background: none;
+  border: none;
+  border-radius: 100px;
+  }
+  .tovcgurav-btn img{
+    position: absolute;
+    left: 500px;
+    top: 250px;
+  display: block;
+  }
+  .tovcduruv-btn{
+  background: none;
+  border: none;
+  border-radius: 100px;
+  }
+  .tovcduruv-btn img{
+    position: absolute;
+    left: 500px;
+    top: 550px;
+  display: block;
+  }
+  .tovctav-btn{
+  background: none;
+  border: none;
+  border-radius: 100px;
+  }
+  .tovctav-btn img{
+    position: absolute;
+    left: 810px;
+    top: 350px;
+  display: block;
+  }
+  .tovczurgaa-btn{
+  background: none;
+  border: none;
+  border-radius: 100px;
+  }
+  .tovczurgaa-btn img{
+    position: absolute;
+    left: 810px;
+    top: 650px;
+  display: block;
+  }
+  .tovcdoloo-btn{
+  background: none;
+  border: none;
+  border-radius: 100px;
+  }
+  .tovcdoloo-btn img{
+    position: absolute;
+    left: 1120px;
+    top: 250px;
+  display: block;
+  }
+  .tovcnaim-btn{
+  background: none;
+  border: none;
+  border-radius: 100px;
+  }
+  .tovcnaim-btn img{
+    position: absolute;
+    left: 1120px;
+    top: 550px;
+  display: block;
+  }
+  .tovcyus-btn{
+  background: none;
+  border: none;
+  border-radius: 100px;
+  }
+  .tovcyus-btn img{
+    position: absolute;
+    left: 1430px;
+    top: 140px;
+  display: block;
+  }
+  .tovcarav-btn{
+  background: none;
+  border: none;
+  border-radius: 100px;
+  }
+  .tovcarav-btn img{
+    position: absolute;
+    left: 1430px;
+    top: 440px;
+  display: block;
+  }
+  .tovcarvanneg-btn{
+  background: none;
+  border: none;
+  border-radius: 100px;
+  }
+  .tovcarvanneg-btn img{
+    position: absolute;
+    left: 810px;
+    top: 55px;
+  display: block;
+  }
+  .niittovc:after{
+    content: "";
+    display: table;
+
+    
+    clear: both;
+  }
+  .container{
+    position: relative;
+    display: none;
+    margin-left: 796px;
+    margin-top: 9px;
+
+  }
+  .closebutton{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  .btn {
+    background-color: green;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    height: 99px;
+    width: 350px;
+    font-size: 35px;
+    font-family: "Press Start 2P";
+    margin-top: 700px;
+    margin-left: 1400px;
+  border-radius: 100px;
+  }
